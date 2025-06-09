@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses - VocaSphere</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/Logo.png" alt="VocaSphere Logo" />
+      <h1>VocaSphere</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html" class="active">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="courses">
+    <h2>Our Courses</h2>
+    <a href="cart.html" class="btn" style="margin: 20px auto; display:block; width:150px; text-align:center;">View Cart</a>
+    <div class="course-grid">
+      <div class="course-card">
+        <h3>Basic Course</h3>
+        <p>Introductory real-life scenarios to get you started with practical conversation.</p>
+        <p class="price">$49</p>
+        <button onclick="addToCart('Basic Course', 49)">Add to Cart</button>
+      </div>
+      <div class="course-card">
+        <h3>Advanced Course</h3>
+        <p>Advanced modules with complex dialogues and cultural contexts.</p>
+        <p class="price">$75</p>
+        <button onclick="addToCart('Advanced Course', 75)">Add to Cart</button>
+      </div>
+      <div class="course-card">
+        <h3>Review Class</h3>
+        <p>Refresher modules tailored to your learning path.</p>
+        <p class="price">$60</p>
+        <button onclick="addToCart('Review Class', 60)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 VocaSphere. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
