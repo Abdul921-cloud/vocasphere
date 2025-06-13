@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Success - VocaSphere</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      color: #222;
+    }
+
+    header.navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 40px;
+      background-color: #ffffff;
+      border-bottom: 3px solid #ff6a00;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .logo h1 {
+      color: #ff6a00;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #222;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #ff6a00;
+    }
+
+    .success-message {
+      max-width: 600px;
+      margin: 100px auto;
+      padding: 40px;
+      background-color: #fff;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    }
+
+    .success-message h2 {
+      color: #28a745;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .success-message p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ff6a00;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e65c00;
+    }
+
+    footer {
+      background-color: #00012b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/Logo.png" alt="VocaSphere Logo" />
+      <h1>VocaSphere</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Success Section -->
+  <section class="success-message">
+    <h2>Payment Successful!</h2>
+    <p>Thank you for enrolling in our language course.<br />A confirmation email will be sent to you shortly.</p>
+    <a href="index.html" class="btn">Return to Home</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 VocaSphere. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
